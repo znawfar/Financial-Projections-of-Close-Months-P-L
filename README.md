@@ -37,3 +37,4 @@ Let's go:
 3- I want to write a query showing the profit/loss for the company by year/month.
 
 
+To be continued!
