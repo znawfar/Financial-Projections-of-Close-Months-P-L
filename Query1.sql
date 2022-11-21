@@ -1,5 +1,4 @@
 
-
 --1- I am goint to write a query which returns each department and their annual cost to the company.
 
 SELECT Costs.Department, SUM(Costs.Annual_Salary) AS TotalCosts
@@ -42,3 +41,4 @@ From
 		Group By Receivable.Month, Receivable.Year) AS Rec,
 	(SELECT Sum(Employees.annual_Salary / 12) as Payable FROM Employees) AS Pay
 Order by Year, Month Desc;
+
