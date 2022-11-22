@@ -1,6 +1,9 @@
 # Financial-Projections-of-Close-Month-s-P-L
 
-I have access to 3 tables, employees, department and sales which are shown below. I am going to answer three significant questions for any business inquiries.
+## QUERY 1
+
+
+> I have access to 3 tables, employees, department and sales which are shown below. I am going to answer three significant questions for any business inquiries.
 
 Employees
 | ID | Name | Department_ID | Annual_Salary |
@@ -28,7 +31,7 @@ Sales
 | 5 | 2 | 12/04/2018 | 1250.00 |
 | 6 | 4 | 21/04/2018 | 8050.00 |
 
-Let's go:
+> Let's go:
 
 1- I want to write a query which returns each department and their annual cost to the company.
 
@@ -37,4 +40,13 @@ Let's go:
 3- I want to write a query showing the profit/loss for the company by year/month.
 
 
-To be continued!
+## QUERY 2
+
+> I have a database entity diagram for a company as follows:
+
+![This is an image](https://github.com/znawfar/Financial-Projections-of-Close-Month-s-P-L/blob/main/Database%20Entity%20Diagram.png)
+
+> I will create these data tables and allocate some values to all of them.
+
+
+#### To Be Continued!
