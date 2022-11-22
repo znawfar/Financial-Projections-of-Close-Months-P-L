@@ -49,4 +49,12 @@
 > I will create these data tables and allocate some values to all of them.
 
 
+## QUERY 3
+
+> I am going to obtain the Net profit using following maths:
+
+
+![This is an image](https://github.com/znawfar/Financial-Projections-of-Close-Month-s-P-L/blob/main/NetProfit.png)
+
+
 #### To Be Continued!
