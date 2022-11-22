@@ -126,11 +126,11 @@ VALUES (5,6,5, 1245.91,'2022-05-14');
 -- 8-Discounts
 
  CREATE TABLE Discounts(
-    ID_Discounts int     identity(1,1)      NOT NULL,
+    ID_Discounts int     identity(1,1)          NOT NULL,
 	Account_Discounts int                   NOT NULL,
 	Description_Discounts varchar(2)        NOT NULL,
 	Amount_Discounts DECIMAL(2)             NOT NULL,
-    Transaction_Discounts_Date  DATETIME    NOT NULL,
+    Transaction_Discounts_Date  DATETIME        NOT NULL,
 	ID_Sales int                            NOT NULL,
     PRIMARY KEY (ID_Discounts),
     FOREIGN KEY (ID_Sales) REFERENCES Sales(ID_Sales)
@@ -154,11 +154,11 @@ VALUES (5,872549, 'Ordinary', 72.12,'2022-06-11',5);
 -- 9- Cost_of_Good_Solds
 
  CREATE TABLE Cost_of_Good_Solds(
-    ID_Cost_Solds int     identity(1,1)       NOT NULL,
+    ID_Cost_Solds int     identity(1,1)           NOT NULL,
 	Account_Cost_Solds int                    NOT NULL,
-	Description_Cost_Solds varchar(100)         NOT NULL,
+	Description_Cost_Solds varchar(100)       NOT NULL,
 	Amount_Cost_Solds DECIMAL(2)              NOT NULL,
-    Transaction_Cost_SoldsDate  DATETIME      NOT NULL,
+    Transaction_Cost_SoldsDate  DATETIME          NOT NULL,
 	ID_Sales int                              NOT NULL,
     PRIMARY KEY (ID_Cost_Solds),
     FOREIGN KEY (ID_Sales) REFERENCES Sales(ID_Sales)
@@ -181,11 +181,11 @@ VALUES (5,872549, 'High', 1173.79,'2022-06-19',5);
 
 -- 10- Operating_Expenses
  CREATE TABLE Operating_Expenses(
-    ID_Operating_Expenses int     identity(1,1)       NOT NULL,
+    ID_Operating_Expenses int     identity(1,1)           NOT NULL,
 	Account_Operating_Expenses int                    NOT NULL,
 	Description_Operating_Expenses varchar(100)       NOT NULL,
 	Amount_Operating_Expenses DECIMAL(2)              NOT NULL,
-    Transaction_Operating_Expenses DATETIME           NOT NULL,
+    Transaction_Operating_Expenses DATETIME               NOT NULL,
 	ID_Sales int                                      NOT NULL,
     PRIMARY KEY (ID_Operating_Expenses),
     FOREIGN KEY (ID_Sales) REFERENCES Sales(ID_Sales)
