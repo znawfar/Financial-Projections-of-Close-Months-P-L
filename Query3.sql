@@ -15,7 +15,6 @@ From
 
 -------------------------------------------------------------------------------------------------------------
 --Part 2: Cross Profit 
-
 SELECT (NetSales.Net_Sales - GoodSolds.Good_Solds) AS Cross_Profit 
 From
 	(SELECT (Pay.Payable - Credit.Credit_Dis) AS Net_Sales
