@@ -42,6 +42,7 @@
 
 ## QUERY 2
 
+
 > I have a database entity diagram for a company as follows:
 
 ![This is an image](https://github.com/znawfar/Financial-Projections-of-Close-Month-s-P-L/blob/main/Database%20Entity%20Diagram.png)
@@ -56,5 +57,12 @@
 
 ![This is an image](https://github.com/znawfar/Financial-Projections-of-Close-Month-s-P-L/blob/main/NetProfit.png)
 
+
+## QUERY 4
+
+
+> In this step, I expect to have following dashboard:
+
+![This is an image](https://github.com/znawfar/Financial-Projections-of-Close-Month-s-P-L/blob/main/GrowthModel.png)
 
 #### To Be Continued!
