@@ -35,7 +35,6 @@ INSERT INTO Categories (ID_Categories, Categories_Name) VALUES (1,'Chocolate');
 INSERT INTO Categories (ID_Categories, Categories_Name) VALUES (2,'Biscuit');
 INSERT INTO Categories (ID_Categories, Categories_Name) VALUES (3,'Candy');
 
-
 --------------------------------------------------------------------------------------------------
 -- 4- Products: 
 CREATE TABLE Products (
@@ -70,7 +69,6 @@ INSERT INTO Clients (ID_Clients, Clients_Name, ID_Client_Clusters, ID_Regiens) V
 INSERT INTO Clients (ID_Clients, Clients_Name, ID_Client_Clusters, ID_Regiens) VALUES (5,'David',1,1);
 INSERT INTO Clients (ID_Clients, Clients_Name, ID_Client_Clusters, ID_Regiens) VALUES (6,'Sarah',1,2);
 
-
 -------------------------------------------------------------------------------------------------------
 -- 6- Regions_Products
 
@@ -93,7 +91,6 @@ INSERT INTO Regions_Products (ID_Regions_Products, ID_Products, ID_Regiens) VALU
 INSERT INTO Regions_Products (ID_Regions_Products, ID_Products, ID_Regiens) VALUES (8,3,2);
 INSERT INTO Regions_Products (ID_Regions_Products, ID_Products, ID_Regiens) VALUES (9,2,1);
 INSERT INTO Regions_Products (ID_Regions_Products, ID_Products, ID_Regiens) VALUES (10,1,2);
- 
  
 ------------------------------------------------------------------------------------------------------ 
  -- 7- Sales
@@ -130,7 +127,6 @@ VALUES (9,1,9, 8100.75,'2022-08-19');
 INSERT INTO SALES (ID_Sales,ID_Clients, ID_Regions_Products, Amount_Sales, Transaction_Date) 
 VALUES (10,6,10, 2245.91,'2022-05-14');
 
-
 ---------------------------------------------------------------------------------------------------------
 -- 8-Discounts
 
@@ -165,7 +161,6 @@ INSERT INTO Discounts (ID_Discounts,Account_Discounts, Description_Discounts, Am
 VALUES (9,25600, 'Special', 154.16,'2022-09-19',9);
 INSERT INTO Discounts (ID_Discounts,Account_Discounts, Description_Discounts, Amount_Discounts, Transaction_Discounts_Date, ID_Sales) 
 VALUES (10,872549, 'Ordinary', 72.12,'2022-06-11',10);
-
 
 ---------------------------------------------------------------------------------------------------------
 -- 9- Cost_of_Good_Solds
@@ -237,7 +232,7 @@ VALUES (9,524567, 'High', 99.99,'2022-08-21',9);
 INSERT INTO Operating_Expenses (ID_Operating_Expenses, Account_Operating_Expenses, Description_Operating_Expenses, Amount_Operating_Expenses, Transaction_Operating_Expenses, ID_Sales) 
 VALUES (10,102356, 'Low', 31.44,'2022-07-14',10);
 
------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
  
  
 
