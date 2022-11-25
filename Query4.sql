@@ -23,7 +23,6 @@ From
 		(SELECT Amount_Sales as Seperate_Payable FROM Sales) AS Sep_Pay,
 		(SELECT Amount_Discounts as Seperate_Credit_Dis FROM Discounts) AS Sep_Credit) AS Seperate_Net_Sales;
 		
-
 -------------------------------------------------------------------------------------
 -- 3- Discount (%)   ===>  (Discounts / Revenue)
 
@@ -31,6 +30,5 @@ SELECT (Credit.Credit_Dis / Pay.Payable) AS DiscountPercentage
 From
 	(SELECT Sum(Amount_Discounts) as Credit_Dis FROM Discounts) AS Credit,
 	(SELECT Sum(Amount_Sales) as Payable FROM Sales) AS Pay;
-
-
+	
 --------------------------------------------------------------------------------------
