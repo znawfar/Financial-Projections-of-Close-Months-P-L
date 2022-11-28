@@ -40,3 +40,4 @@ From
 	(SELECT Sum(Amount_Discounts) as Credit_Dis FROM Discounts) AS Credit,
 	(SELECT Sum(Amount_Sales) as Payable FROM Sales) AS Pay;
 
+
