@@ -9,8 +9,7 @@ SELECT Costs.Department, SUM(Costs.Annual_Salary) AS TotalCosts
 		FULL JOIN Department
 		ON Employees.Department_ID = Department.ID) AS Costs GROUP BY Costs.Department
 ORDER BY TotalCosts DESC;
-
-
+----------------------------------------------------------------------------------------------------------------
 
 --2- I am going to write a query which returns the total sales amount for each employee who works for the sales
 -- department, showing the employees with the highest sales at the top.
@@ -26,8 +25,7 @@ SELECT TotalSales.Name, SUM(TotalSales.Amount) AS TotalSales
 	WHERE TotalSales.Amount IS NOT NULL 
 	GROUP BY TotalSales.Name
 	ORDER BY TotalSales DESC;
-
-
+-----------------------------------------------------------------------------------------------------------------
 
 --3- I am going to write a query showing the profit/loss for the company by year/month.
 
@@ -42,4 +40,5 @@ From
 		Group By Receivable.Month, Receivable.Year) AS Rec,
 	(SELECT Sum(Employees.annual_Salary / 12) as Payable FROM Employees) AS Pay
 Order by Year, Month Desc;
+-------------------------------------------------------------------------------------------------------------------
 
