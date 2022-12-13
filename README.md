@@ -66,4 +66,4 @@
 ![This is an image](https://github.com/znawfar/Financial-Projections-of-Close-Month-s-P-L/blob/main/GrowthModel.png)
 
 #### To Be Continued!
-
+--------------------------------------------------------------------------------------------------------------------
