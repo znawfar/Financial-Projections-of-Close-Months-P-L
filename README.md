@@ -1,4 +1,3 @@
-
 # Financial-Projections-of-Close-Month-s-P-L
 
 ## QUERY 1
