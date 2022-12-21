@@ -1,5 +1,4 @@
 
-
 --I am going to obtain the Net profit using following maths:
 
 -- Revenue - Discount = Net Sales - Cost of Goods Solds = Cross Profit - Expenses = Net Profit
