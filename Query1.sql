@@ -1,5 +1,4 @@
 
-
 --1- I am goint to write a query which returns each department and their annual cost to the company.
 
 SELECT Costs.Department, SUM(Costs.Annual_Salary) AS TotalCosts
