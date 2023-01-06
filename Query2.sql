@@ -1,4 +1,5 @@
 
+
 --I have a database entity diagram for a company.
 --In this section, I will create these data tables and allocate some values to all of them. 
 
