@@ -1,4 +1,5 @@
 
+
 -- 1- Current Net_Sales($)  ===>  (Net Sales = Revenue - Discounts)
 
 SELECT (Pay.Payable - Credit.Credit_Dis) AS Company_Net_Sales
