@@ -36,4 +36,3 @@ From
 		(SELECT Sum(Amount_Cost_Solds) as Good_Solds FROM Cost_of_Good_Solds) AS GoodSolds) AS CrossProfit,
 	(SELECT Sum(Amount_Operating_Expenses) as OperatingEx FROM Operating_Expenses) AS OperatingExpenses;
 
-
