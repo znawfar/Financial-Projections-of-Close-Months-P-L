@@ -39,5 +39,5 @@ From
 		Group By Receivable.Month, Receivable.Year) AS Rec,
 	(SELECT Sum(Employees.annual_Salary / 12) as Payable FROM Employees) AS Pay
 Order by Year, Month Desc;
--------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
 
