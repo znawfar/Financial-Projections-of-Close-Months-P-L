@@ -37,3 +37,4 @@ From
 	(SELECT Sum(Amount_Operating_Expenses) as OperatingEx FROM Operating_Expenses) AS OperatingExpenses;
 
 
+
