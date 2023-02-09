@@ -12,8 +12,9 @@ CREATE TABLE Client_Clusters (
 
 INSERT INTO Client_Clusters (ID_Client_Clusters, Name) VALUES (1,'Famous_Company');
 INSERT INTO Client_Clusters (ID_Client_Clusters, Name) VALUES (2,'Unknown_Company');
-
 ------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+
 -- 2- Regiens: 
 CREATE TABLE Regiens (
     ID_Regiens int            identity(1,1) NOT NULL,
@@ -23,8 +24,9 @@ CREATE TABLE Regiens (
 
 INSERT INTO Regiens (ID_Regiens, Regiens_Name) VALUES (1,'USA');
 INSERT INTO Regiens (ID_Regiens, Regiens_Name) VALUES (2,'UK');
-
 -------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+
 --3- Categories:
 CREATE TABLE Categories (
     ID_Categories int            identity(1,1) NOT NULL,
@@ -35,8 +37,9 @@ CREATE TABLE Categories (
 INSERT INTO Categories (ID_Categories, Categories_Name) VALUES (1,'Chocolate');
 INSERT INTO Categories (ID_Categories, Categories_Name) VALUES (2,'Biscuit');
 INSERT INTO Categories (ID_Categories, Categories_Name) VALUES (3,'Candy');
-
 --------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+
 -- 4- Products: 
 CREATE TABLE Products (
     ID_Products int     identity(1,1) NOT NULL,
@@ -69,8 +72,9 @@ INSERT INTO Clients (ID_Clients, Clients_Name, ID_Client_Clusters, ID_Regiens) V
 INSERT INTO Clients (ID_Clients, Clients_Name, ID_Client_Clusters, ID_Regiens) VALUES (4,'Jenny',2,2);
 INSERT INTO Clients (ID_Clients, Clients_Name, ID_Client_Clusters, ID_Regiens) VALUES (5,'David',1,1);
 INSERT INTO Clients (ID_Clients, Clients_Name, ID_Client_Clusters, ID_Regiens) VALUES (6,'Sarah',1,2);
-
 -------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+
 -- 6- Regions_Products
 
 CREATE TABLE Regions_Products (
@@ -92,8 +96,9 @@ INSERT INTO Regions_Products (ID_Regions_Products, ID_Products, ID_Regiens) VALU
 INSERT INTO Regions_Products (ID_Regions_Products, ID_Products, ID_Regiens) VALUES (8,3,2);
 INSERT INTO Regions_Products (ID_Regions_Products, ID_Products, ID_Regiens) VALUES (9,2,1);
 INSERT INTO Regions_Products (ID_Regions_Products, ID_Products, ID_Regiens) VALUES (10,1,2);
- 
+-----------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------ 
+
  -- 7- Sales
  
  CREATE TABLE Sales(
@@ -127,8 +132,9 @@ INSERT INTO SALES (ID_Sales,ID_Clients, ID_Regions_Products, Amount_Sales, Trans
 VALUES (9,1,9, 8100.75,'2022-08-19');
 INSERT INTO SALES (ID_Sales,ID_Clients, ID_Regions_Products, Amount_Sales, Transaction_Date) 
 VALUES (10,6,10, 2245.91,'2022-05-14');
-
 ---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+
 -- 8-Discounts
 
  CREATE TABLE Discounts(
@@ -162,8 +168,9 @@ INSERT INTO Discounts (ID_Discounts,Account_Discounts, Description_Discounts, Am
 VALUES (9,25600, 'Special', 154.16,'2022-09-19',9);
 INSERT INTO Discounts (ID_Discounts,Account_Discounts, Description_Discounts, Amount_Discounts, Transaction_Discounts_Date, ID_Sales) 
 VALUES (10,872549, 'Ordinary', 72.12,'2022-06-11',10);
-
 ---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+
 -- 9- Cost_of_Good_Solds
 
  CREATE TABLE Cost_of_Good_Solds(
@@ -198,8 +205,9 @@ INSERT INTO Cost_of_Good_Solds (ID_Cost_Solds, Account_Cost_Solds, Description_C
 VALUES (9,25600, 'Low', 6346.52,'2022-09-29',9);
 INSERT INTO Cost_of_Good_Solds (ID_Cost_Solds, Account_Cost_Solds, Description_Cost_Solds, Amount_Cost_Solds, Transaction_Cost_SoldsDate, ID_Sales) 
 VALUES (10,872549, 'High', 1935.49,'2022-06-19',10);
-
 ---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+
 -- 10- Operating_Expenses
  CREATE TABLE Operating_Expenses(
     ID_Operating_Expenses int     identity(1,1)           NOT NULL,
@@ -232,8 +240,8 @@ INSERT INTO Operating_Expenses (ID_Operating_Expenses, Account_Operating_Expense
 VALUES (9,524567, 'High', 99.99,'2022-08-21',9);
 INSERT INTO Operating_Expenses (ID_Operating_Expenses, Account_Operating_Expenses, Description_Operating_Expenses, Amount_Operating_Expenses, Transaction_Operating_Expenses, ID_Sales) 
 VALUES (10,102356, 'Low', 31.44,'2022-07-14',10);
-
---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
  
  
 
