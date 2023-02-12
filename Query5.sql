@@ -1,13 +1,9 @@
 --1- Here I have written a code to list the sales items (invoices) received in January 2023.
 --First, I declare two variables for the month (M) and Year (Y) when I want to fetch the sales voices.
 --I have used WITH clause to simplify the long queries and have several subqueries.
-
 --Second, I created the Sales Order joining sales header and details, grouped them over some entities, and then calculated the total sales value. 
-
 --Third, SalesExport was developed by another WITH clause to have the sales invoices for items exported. Here I consider the exchange rate.
-
 --Forth, SalesNonExport was developed to list the sales items for those sold nationwide; here, I have GBP as the main currency as items are sold in the UK.
-
 --Finally, I have Full Column joining SalesExport and SalesNonExport by the union.
 
 
