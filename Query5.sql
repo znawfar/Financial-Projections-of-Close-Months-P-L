@@ -1,3 +1,5 @@
+
+
 --1- Here I have written a code to list the sales items (invoices) received in January 2023.
 --First, I declare two variables for the month (M) and Year (Y) when I want to fetch the sales voices.
 --I have used WITH clause to simplify the long queries and have several subqueries.
