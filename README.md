@@ -67,6 +67,12 @@
 
 ![This is an image](https://github.com/znawfar/Financial-Projections-of-Close-Month-s-P-L/blob/main/GrowthModel.png)
 
+
+## QUERY 5
+
+
+> In this section, I have written a code to list the sales items (invoices) received in january 2023
+
 #### To Be Continued!
 
 --------------------------------------------------------------------------------------------------------------------
