@@ -71,7 +71,7 @@
 ## QUERY 5
 
 
-> In this section, I have written a code to list the sales items (invoices) received in january 2023
+> In this section, I have written a code to list the sales items (invoices) received in January 2023.
 
 #### To Be Continued!
 
