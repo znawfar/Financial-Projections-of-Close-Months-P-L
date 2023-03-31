@@ -5,7 +5,6 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## QUERY 1
 
-
 > I have access to 3 tables, employees, department and sales which are shown below. I am going to answer three significant questions for any business inquiries.
 
 #### Employees
